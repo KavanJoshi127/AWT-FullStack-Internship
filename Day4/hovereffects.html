@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>hovereffects</title>
+    <style>
+        div{
+            color: red;
+            background-color: blue;
+            height: 100px;
+            width: 100px;
+            margin: 1%;
+            transition-duration: 2s;
+            text-align: center;
+        }
+        .Trans:hover{
+            transform: translate(100px,100px);
+        }
+
+        .sca:hover{
+            transform: scale(2);
+        }
+        .rot:hover{
+            transform: rotate(180deg);
+        }
+        .threed:hover{
+            transform: rotate3d(1,0,1,360deg);
+        }
+        .sk:hover{
+            transform: skew(45deg);
+        }
+        .opa:hover{
+            opacity: 0.5%;
+        }
+        .bs:hover{
+            box-shadow: 10px 10px;
+            color: black;
+        }
+        .rg:hover{
+            background-color: rgb(227, 14, 14);
+            color: black;
+        }
+        .tx:hover{
+            color: white;
+            text-shadow: 4px 4px 8px #48d80b;
+        }
+        .six:hover{
+            overflow:auto;
+        }
+        .mat:hover{
+            transform: matrix(1, -0.3, 0, 1, 40, 40);
+        }
+        .radi:hover{
+            border-radius: 50%;
+        }
+    </style>
+</head>
+<body>
+    <div class="Trans">1</div>
+    <div class="sca">2</div>
+    <div class="sk">3</div>
+    <div class="opa">4</div>
+    <div class="threed">5</div>
+    <div class="rg">6</div>
+    <div class="bs">7</div>
+    <div class="rot">8</div>
+    <div class="tx">BOX</div>
+    <div class="six">10scroll hello
+        ar̥ṅarfhgs
+        rhgisyrghjrgb
+        yfdugdjfvbhfdj
+        jfgudyfeefbgaer
+        yfguyearrhb
+        eartgrhfgrfg</div>
+    <div class="mat">11</div>
+    <div class="radi">12</div>
+</body>
+</html>
