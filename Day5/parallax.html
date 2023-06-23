@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Parallax Effect</title>
+    <style>
+        .parallax{
+            background-image: url("outer-space-wallpaper-23.jpg");
+            min-height: 800px;
+            background-attachment: fixed;
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: cover;
+        }
+        .antDiv{
+            height: 500px;
+            background-color: brown;
+            font-size: 34px;
+            font-style: initial;
+        }
+        .next{
+            background-image: url("3.jpeg");
+            background-size: cover;
+        }
+    </style>
+</head>
+<body bgcolor="#212121">
+    <p>We have given some parallax effect to this page</p>
+    <div class="parallax"></div>
+    <div class="antDiv">
+        Demo for parallax effect.
+    </div>
+    <video src="pexels-enrique-hoyos-3571264-3840x2160-30fps.mp4" class="parallax next" autoplay muted></video>
+    <!-- <div class="parallax next"></div> -->
+</body>
+</html>
