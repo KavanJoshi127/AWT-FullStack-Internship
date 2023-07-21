@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Feedback Form</title>
+    <!-- Add the jQuery library -->
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+<script src="E:\feedback.js"></script>
+</head>
+<body>
+    <h1>Feedback Form</h1>
+    <form id="feedbackForm">
+        <label for="name">Name:</label>
+        <input type="text" id="name" required>
+        <br>
+        <label for="email">Email:</label>
+        <input type="email" id="email" required>
+        <br>
+        <label for="message">Feedback:</label>
+        <textarea id="message" required></textarea>
+        <br>
+        <input type="submit" value="Submit">
+    </form>
+
+    <div id="responseMessage"></div>
+
+    <script src="feedback.js"></script>
+</body>
+</html>
